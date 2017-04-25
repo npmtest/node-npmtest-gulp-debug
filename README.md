@@ -1,6 +1,6 @@
 # npmtest-gulp-debug
 
-#### test coverage for  [gulp-debug (v3.1.0)](https://github.com/sindresorhus/gulp-debug#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-debug.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-debug) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-debug.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-debug)
+#### basic test coverage for  [gulp-debug (v3.1.0)](https://github.com/sindresorhus/gulp-debug#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-debug.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-debug) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-debug.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-debug)
 
 #### Debug Vinyl file streams to see what files are run through your Gulp pipeline
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-debug/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-debug/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-debug/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-debug/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-debug/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-debug/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-debug/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-debug/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-debug/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-debug/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-debug/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-debug/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
     "scripts": {
         "test": "xo && mocha"
     },
-    "version": "3.1.0"
+    "version": "3.1.0",
+    "bin": {}
 }
 ```
 
